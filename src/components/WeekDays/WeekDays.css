@@ -1,0 +1,12 @@
+.WeekDays {
+    width: 100%;
+    display: flex;
+}
+
+.day {
+    border-left: 1px solid #eee;
+    border-bottom: 1px solid #eee;
+    display: flex;
+    flex: 1;
+    padding: 20px;
+}

@@ -1,0 +1,10 @@
+.item {
+    display: block;
+    font-size: 12px;
+    padding: 5px;
+}
+
+.event {
+    width: 100%;
+    background: rgba(29, 83, 233, 0.6);
+}

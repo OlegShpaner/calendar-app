@@ -1,0 +1,21 @@
+.TimeLine {
+    box-sizing: border-box;
+    position: absolute;
+    left: 0;
+    top: 58px;
+    background-color: #f8f8f8;
+    border-right: 1px solid #eee;
+    border-top: 1px solid #eee;
+}
+
+.time {
+    display: flex;
+    width: 80px;
+    height: 40px;
+    align-items: center;
+    justify-content: center;
+}
+
+.time:nth-child(even) {
+    visibility: hidden;
+}
